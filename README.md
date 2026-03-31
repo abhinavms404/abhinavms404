@@ -1,16 +1,50 @@
-## Hi there 👋
+# 👋 Hey, I'm Abhinav (Matrix)
 
-<!--
-**abhinavms404/abhinavms404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 Cybersecurity Enthusiast | Pentester | Learner  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧠 About Me
+- 🔭 Currently exploring **Web Security & Bug Bounty**
+- 🌱 Learning **Penetration Testing, SOC, and Red Teaming**
+- 💻 Passionate about **Linux, Networking & Security**
+- ⚡ Goal: Become a **Top Cybersecurity Expert**
+
+---
+
+## 🛠️ Skills & Tools
+- 💻 Languages: Python, Bash, JavaScript (Basics)
+- 🐧 OS: Kali Linux, Ubuntu
+- 🔐 Security Tools: Nmap, Burp Suite, Metasploit, Wireshark
+- 🌐 Web: HTML, CSS, JS (Basics)
+
+---
+
+## 📚 Currently Learning
+- Web Application Security
+- Privilege Escalation
+- Active Directory Attacks
+- Bug Bounty Hunting
+
+---
+
+## 🧪 Projects
+- 🔍 Recon Automation Scripts
+- 🌐 Web Vulnerability Testing Labs
+- 🐍 Python Security Tools (Coming Soon...)
+
+---
+
+## 📊 GitHub Stats
+![Matrix's GitHub stats](https://github-readme-stats.vercel.app/api?username=abhinavms404&show_icons=true&theme=radical)
+
+---
+
+## 🔗 Connect With Me
+- 💬 TryHackMe: https://tryhackme.com
+- 📫 Email: abhinavms1386@gmail.com
+
+---
+
+## ⚡ Fun Fact
+> "I don’t hack systems, I understand them."
