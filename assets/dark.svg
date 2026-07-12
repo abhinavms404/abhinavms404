@@ -74,7 +74,7 @@
   <!-- ===== LEFT: ASCII Portrait ===== -->
   <g transform="translate(30, 40)">
     <!-- Terminal frame for portrait -->
-    <rect x="0" y="0" width="530" height="530" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <rect x="0" y="0" width="530" height="555" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
     
     <!-- Terminal title bar -->
     <rect x="0" y="0" width="530" height="36" rx="12" fill="rgba(255,255,255,0.05)"/>
@@ -82,104 +82,104 @@
     <circle cx="20" cy="18" r="5" fill="#ff5f57"/>
     <circle cx="38" cy="18" r="5" fill="#ffbd2e"/>
     <circle cx="56" cy="18" r="5" fill="#28c840"/>
-    <text x="265" y="23" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="11">root@abhinavms:~/profile</text>
+    <text x="265" y="23" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11">root@abhinavms:~/profile</text>
 
     <!-- ASCII Portrait from user file -->
-    <g transform="translate(15, 50)">
-      <rect x="15" y="0" width="500" height="450" rx="10" fill="none" stroke="rgba(0,255,136,0.08)" stroke-width="1"/>
+    <g transform="translate(15, 40)">
+      <rect x="15" y="0" width="500" height="480" rx="10" fill="none" stroke="rgba(0,255,136,0.08)" stroke-width="1"/>
 
-      <text font-family="monospace" font-size="6.5" fill="#00ff88" opacity="0.95" xml:space="preserve">
-        <tspan x="175" y="60">                                                                                                    </tspan>
-        <tspan x="175" y="67">                                                                                                    </tspan>
-        <tspan x="175" y="74">                                                                                                    </tspan>
-        <tspan x="175" y="81">                                                     * * **                                         </tspan>
-        <tspan x="175" y="88">                                            *##*  ###****#***+                                      </tspan>
-        <tspan x="175" y="95">                                          **###**##%%##=*#+++=++++                                  </tspan>
-        <tspan x="175" y="102">                                      ##*****#%###%%%%+=+#*=*+==+++++                               </tspan>
-        <tspan x="175" y="109">                                    #####%*+***%#%%#*=++#**+*++++=*++==++                           </tspan>
-        <tspan x="175" y="116">                                   %%%%##%#******####***##*****#%=+*****++                          </tspan>
-        <tspan x="175" y="123">                                 ###%%%%%%%%#*#%#*+*##%#*%#%%##%@+=+*#*==+++                        </tspan>
-        <tspan x="175" y="130">                                #%%%%%%%@@@%#+***++*#%%%###%@%%%%#*+++#%**+++**                     </tspan>
-        <tspan x="175" y="137">                               #%%%%%@@@@@@@%%#*%#**#%%@@%@%#@@%%%%%#**####++*                      </tspan>
-        <tspan x="175" y="144">                               %%@@@@@@%@@@%@@%%%%%%%#%%%@@@@@@@%%%@%##*###*#**                     </tspan>
-        <tspan x="175" y="151">                              %%@@@@@@@@@@@%%%%%@@@@%%#*##%%@@@@@@%@@%####%#%#*                     </tspan>
-        <tspan x="175" y="158">                             %%@%%@@@@@@@@%#%%%%%%%%%#*++==+*#%@@@@@@%%%%%%%#**                     </tspan>
-        <tspan x="175" y="165">                               @@%@@@@@@@#*++++****+++===--==++#%@@@@@@%%%%#*+***                   </tspan>
-        <tspan x="175" y="172">                                @@@@@@@%*+++++++======--:::--==+*%@@@@@%#**++**                     </tspan>
-        <tspan x="175" y="179">                                 @@@@%*+++=+*++==----:::::.:----+#@@@@@%****##*                     </tspan>
-        <tspan x="175" y="186">                                 @@@%#++++++++**#**===-----:::::-*%@@@@%#**####                     </tspan>
-        <tspan x="175" y="193">                                 %%@%*+===+*++**+==+==+*#**+*++-:-*%@@@%###*##                      </tspan>
-        <tspan x="175" y="200">                                 %@%%++===++++++*+++-:-***#**+++-:-+%@%@%%###                       </tspan>
-        <tspan x="175" y="207">                                ***%*+*===+==++++++*-::+++*##*##+-:-*#%@@%##                        </tspan>
-        <tspan x="175" y="214">                               +#++**+++===------=*=-:.--:====--:::+%%@@@%                          </tspan>
-        <tspan x="175" y="221">                               +*+=*++==++++====+=-=-:.:-::::...:::+%%###                           </tspan>
-        <tspan x="175" y="228">                               *+++*++=======+++++##*+**=-==-:::.:=-*+**+                           </tspan>
-        <tspan x="175" y="235">                                +++++==++===+===+#%%#%##*-=+++=--:--+=**=                           </tspan>
-        <tspan x="175" y="242">                                 ++++==+++++++*#%@@%#%##*=-=++==----*=+++                           </tspan>
-        <tspan x="175" y="249">                                 ==++=====+*#%@@@@%##*#%#*========-=+===                            </tspan>
-        <tspan x="175" y="256">                                   *++====+#%%***+++++=+#%%%#====------                             </tspan>
-        <tspan x="175" y="263">                                    *++=+++++=====+++++=-=+**====---::                              </tspan>
-        <tspan x="175" y="270">                                   #***++++++=====++**+==--=+=====++=+                              </tspan>
-        <tspan x="175" y="277">                                   ********+++======--::::--++++++                                  </tspan>
-        <tspan x="175" y="284">                                 %%****##*****+======--:--=+*****                                   </tspan>
-        <tspan x="175" y="291">                             ****%@#***########**+++*++***####**                                    </tspan>
-        <tspan x="175" y="298">                ----::-=++***#####%%**####%%%###%%####%%%####***                                    </tspan>
-        <tspan x="175" y="305">           ----------::-=+***####%###***####%%%%%%%%%%%%%%##*++                                     </tspan>
-        <tspan x="175" y="312">        --===---::::-----:=+***####%%%#****###%%%%%%%%%%%#**+++                                     </tspan>
-        <tspan x="175" y="319">     -------=-=-=+=--:::-----+***####%%#******###########**+++                                      </tspan>
-        <tspan x="175" y="326">    ----=====--:-=+++=-------:-+**#####%%#********#######*+++                                       </tspan>
-        <tspan x="175" y="333">  --===---=+=-=:::-+***+--*+---:=+*+*##*#%%#**+++++***#**+++%=:::                                   </tspan>
-        <tspan x="175" y="340"> =----===--=+==---::-=***+--*=:-::-+-+*****%%#*++++++++++++#@#-::::                                 </tspan>
-        <tspan x="175" y="347">==-:::::--::-==-=---:::-+**+--=-:::-+-++*****%%#*+++++++++*%@%-:::::::                              </tspan>
-        <tspan x="175" y="354">====--:----=++*******++=-:-=*+=---::==-+=++****%%#*********%%=:::::::::.::                          </tspan>
-        <tspan x="175" y="361">======--::-+**+++++***###*+---=+-----+:-====+**+*#%%%#**+++++=:::::::::::::::                       </tspan>
-        <tspan x="175" y="368">====++==--:::-======--==+###*=-::----==:---===+*+=+****##*+==-::::::::::::::::                      </tspan>
-        <tspan x="175" y="375">====+++++==--::::----====--=*##+-:::-=+-:--:--==++=+=+++====-::::::.:::::::::::                     </tspan>
-        <tspan x="175" y="382">====++++++++==--::::::---====--*#+-::==+:--::---=+++*+=+==--::::::::.::::::::--::                   </tspan>
-        <tspan x="175" y="389">========++++++++==--:::::::--==-:+#=:-==-:=-:::---===#+-:::::::::::::::::::::--:::                  </tspan>
-        <tspan x="175" y="396">========------===+++==--::::::-==--**-=-=--=-::::::---**-:::::::::::::::::::::--::                  </tspan>
-        <tspan x="175" y="403">=========------------==++=-:::::--=--*=-=--+-::::::----+*=:::::::::::::::::::::---:                 </tspan>
-        <tspan x="175" y="410">========------------------===-::::----+====+=-:--:::--:-+#+-::::::---::::::::::-----                </tspan>
-        <tspan x="175" y="417">========------------:::::::------:::----==+*=-::--::---:-+**=-:::::---:::::::::------               </tspan>
-        <tspan x="175" y="424">=========------------:::::::::::-:::::---=+*+-::---::----=+**+=--::::--:::::::::-----               </tspan>
-        <tspan x="175" y="431">===========-----------:::::::::::::::::---*#+=-:----:-----=+***+==-:::--:::::::-------              </tspan>
-        <tspan x="175" y="438">=============----------::::::::--:::::::---#*=---------=-::------=+=-::---:::----------             </tspan>
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="5.5" fill="#00ff88" opacity="0.95">
+        <tspan x="175" y="58.0"></tspan>
+<tspan x="175" y="65.5"></tspan>
+<tspan x="175" y="73.0"></tspan>
+<tspan x="175" y="80.5">                                                     * * **</tspan>
+<tspan x="175" y="88.0">                                            *##*  ###****#***+</tspan>
+<tspan x="175" y="95.5">                                          **###**##%%##=*#+++=++++</tspan>
+<tspan x="175" y="103.0">                                      ##*****#%###%%%%+=+#*=*+==+++++</tspan>
+<tspan x="175" y="110.5">                                    #####%*+***%#%%#*=++#**+*++++=*++==++</tspan>
+<tspan x="175" y="118.0">                                   %%%%##%#******####***##*****#%=+*****++</tspan>
+<tspan x="175" y="125.5">                                 ###%%%%%%%%#*#%#*+*##%#*%#%%##%@+=+*#*==+++</tspan>
+<tspan x="175" y="133.0">                                #%%%%%%%@@@%#+***++*#%%%###%@%%%%#*+++#%**+++**</tspan>
+<tspan x="175" y="140.5">                               #%%%%%@@@@@@@%%#*%#**#%%@@%@%#@@%%%%%#**####++*</tspan>
+<tspan x="175" y="148.0">                               %%@@@@@@%@@@%@@%%%%%%%#%%%@@@@@@@%%%@%##*###*#**</tspan>
+<tspan x="175" y="155.5">                              %%@@@@@@@@@@@%%%%%@@@@%%#*##%%@@@@@@%@@%####%#%#*</tspan>
+<tspan x="175" y="163.0">                             %%@%%@@@@@@@@%#%%%%%%%%%#*++==+*#%@@@@@@%%%%%%%#**</tspan>
+<tspan x="175" y="170.5">                               @@%@@@@@@@#*++++****+++===--==++#%@@@@@@%%%%#*+***</tspan>
+<tspan x="175" y="178.0">                                @@@@@@@%*+++++++======--:::--==+*%@@@@@%#**++**</tspan>
+<tspan x="175" y="185.5">                                 @@@@%*+++=+*++==----:::::.:----+#@@@@@%****##*</tspan>
+<tspan x="175" y="193.0">                                 @@@%#++++++++**#**===-----:::::-*%@@@@%#**####</tspan>
+<tspan x="175" y="200.5">                                 %%@%*+===+*++**+==+==+*#**+*++-:-*%@@@%###*##</tspan>
+<tspan x="175" y="208.0">                                 %@%%++===++++++*+++-:-***#**+++-:-+%@%@%%###</tspan>
+<tspan x="175" y="215.5">                                ***%*+*===+==++++++*-::+++*##*##+-:-*#%@@%##</tspan>
+<tspan x="175" y="223.0">                               +#++**+++===------=*=-:.--:====--:::+%%@@@%</tspan>
+<tspan x="175" y="230.5">                               +*+=*++==++++====+=-=-:.:-::::...:::+%%###</tspan>
+<tspan x="175" y="238.0">                               *+++*++=======+++++##*+**=-==-:::.:=-*+**+</tspan>
+<tspan x="175" y="245.5">                                +++++==++===+===+#%%#%##*-=+++=--:--+=**=</tspan>
+<tspan x="175" y="253.0">                                 ++++==+++++++*#%@@%#%##*=-=++==----*=+++</tspan>
+<tspan x="175" y="260.5">                                 ==++=====+*#%@@@@%##*#%#*========-=+===</tspan>
+<tspan x="175" y="268.0">                                   *++====+#%%***+++++=+#%%%#====------</tspan>
+<tspan x="175" y="275.5">                                    *++=+++++=====+++++=-=+**====---::</tspan>
+<tspan x="175" y="283.0">                                   #***++++++=====++**+==--=+=====++=+</tspan>
+<tspan x="175" y="290.5">                                   ********+++======--::::--++++++</tspan>
+<tspan x="175" y="298.0">                                 %%****##*****+======--:--=+*****</tspan>
+<tspan x="175" y="305.5">                             ****%@#***########**+++*++***####**</tspan>
+<tspan x="175" y="313.0">                ----::-=++***#####%%**####%%%###%%####%%%####***</tspan>
+<tspan x="175" y="320.5">           ----------::-=+***####%###***####%%%%%%%%%%%%%%##*++</tspan>
+<tspan x="175" y="328.0">        --===---::::-----:=+***####%%%#****###%%%%%%%%%%%#**+++</tspan>
+<tspan x="175" y="335.5">     -------=-=-=+=--:::-----+***####%%#******###########**+++</tspan>
+<tspan x="175" y="343.0">    ----=====--:-=+++=-------:-+**#####%%#********#######*+++</tspan>
+<tspan x="175" y="350.5">  --===---=+=-=:::-+***+--*+---:=+*+*##*#%%#**+++++***#**+++%=:::</tspan>
+<tspan x="175" y="358.0"> =----===--=+==---::-=***+--*=:-::-+-+*****%%#*++++++++++++#@#-::::</tspan>
+<tspan x="175" y="365.5">==-:::::--::-==-=---:::-+**+--=-:::-+-++*****%%#*+++++++++*%@%-:::::::</tspan>
+<tspan x="175" y="373.0">====--:----=++*******++=-:-=*+=---::==-+=++****%%#*********%%=:::::::::.::</tspan>
+<tspan x="175" y="380.5">======--::-+**+++++***###*+---=+-----+:-====+**+*#%%%#**+++++=:::::::::::::::</tspan>
+<tspan x="175" y="388.0">====++==--:::-======--==+###*=-::----==:---===+*+=+****##*+==-::::::::::::::::</tspan>
+<tspan x="175" y="395.5">====+++++==--::::----====--=*##+-:::-=+-:--:--==++=+=+++====-::::::.:::::::::::</tspan>
+<tspan x="175" y="403.0">====++++++++==--::::::---====--*#+-::==+:--::---=+++*+=+==--::::::::.::::::::--::</tspan>
+<tspan x="175" y="410.5">========++++++++==--:::::::--==-:+#=:-==-:=-:::---===#+-:::::::::::::::::::::--:::</tspan>
+<tspan x="175" y="418.0">========------===+++==--::::::-==--**-=-=--=-::::::---**-:::::::::::::::::::::--::</tspan>
+<tspan x="175" y="425.5">=========------------==++=-:::::--=--*=-=--+-::::::----+*=:::::::::::::::::::::---:</tspan>
+<tspan x="175" y="433.0">========------------------===-::::----+====+=-:--:::--:-+#+-::::::---::::::::::-----</tspan>
+<tspan x="175" y="440.5">========------------:::::::------:::----==+*=-::--::---:-+**=-:::::---:::::::::------</tspan>
+<tspan x="175" y="448.0">=========------------:::::::::::-:::::---=+*+-::---::----=+**+=--::::--:::::::::-----</tspan>
+<tspan x="175" y="455.5">===========-----------:::::::::::::::::---*#+=-:----:-----=+***+==-:::--:::::::-------</tspan>
+<tspan x="175" y="463.0">=============----------::::::::--:::::::---#*=---------=-::------=+=-::---:::----------</tspan>
       </text>
 
       <!-- Glitch overlay -->
-      <text font-family="monospace" font-size="6.5" fill="#ff00aa" opacity="0.2" xml:space="preserve">
-        <tspan x="173" y="88">                                            *##*  ###****#***+                                      </tspan>
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="5.5" fill="#ff00aa" opacity="0.2">
+        <tspan x="173" y="88.0">                                            *##*  ###****#***+</tspan>
         <animate attributeName="opacity" values="0;0;0.2;0;0;0;0.15;0" dur="4s" repeatCount="indefinite"/>
       </text>
 
       <!-- Scanning line -->
-      <rect x="20" y="60" width="490" height="1.5" fill="rgba(0,255,136,0.1)">
-        <animate attributeName="y" values="60;445;60" dur="6s" repeatCount="indefinite"/>
+      <rect x="20" y="58" width="490" height="1.5" fill="rgba(0,255,136,0.1)">
+        <animate attributeName="y" values="58;468;58" dur="6s" repeatCount="indefinite"/>
       </rect>
     </g>
 
     <!-- Bottom info bar with typing animation -->
-    <g transform="translate(20, 460)">
-      <text font-family="monospace" font-size="13" fill="rgba(255,255,255,0.6)">
+    <g transform="translate(20, 485)">
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="rgba(255,255,255,0.6)">
         <tspan fill="#00ccff">$</tspan> <tspan fill="#00ff88">./identify.sh</tspan>
       </text>
-      <text font-family="monospace" font-size="12" fill="rgba(255,255,255,0.5)">
-        <tspan x="0" y="25" opacity="0">
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="12" fill="rgba(255,255,255,0.5)">
+        <tspan x="0" y="22" opacity="0">
           <animate attributeName="opacity" values="0;0;1" dur="6s" repeatCount="indefinite"/>
           > System : Security Research Lab
         </tspan>
-        <tspan x="0" y="43" opacity="0">
+        <tspan x="0" y="38" opacity="0">
           <animate attributeName="opacity" values="0;0;0;1" dur="8s" repeatCount="indefinite"/>
           > User   : ABHINAV MS
         </tspan>
-        <tspan x="0" y="61" opacity="0">
+        <tspan x="0" y="54" opacity="0">
           <animate attributeName="opacity" values="0;0;0;0;1" dur="10s" repeatCount="indefinite"/>
           > Role   : Security Researcher
         </tspan>
       </text>
 
       <!-- Blinking cursor -->
-      <text x="160" y="0" font-family="monospace" font-size="13" fill="#00ff88">
+      <text x="160" y="0" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ff88">
         <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
         █
       </text>
@@ -202,19 +202,19 @@
     <circle cx="20" cy="20" r="5" fill="#ff5f57"/>
     <circle cx="38" cy="20" r="5" fill="#ffbd2e"/>
     <circle cx="56" cy="20" r="5" fill="#28c840"/>
-    <text x="295" y="25" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-family="monospace" font-size="10">/bin/zsh — terminal</text>
+    <text x="295" y="25" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="10">/bin/zsh — terminal</text>
 
     <!-- Terminal content -->
     <g transform="translate(25, 60)">
       <!-- Line 1: Username -->
-      <text font-family="monospace" font-size="13" fill="#00ccff">
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
         <tspan font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
         <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
         <tspan fill="#00ff88">whoami</tspan>
       </text>
 
       <!-- Line 2: Output (typed) -->
-      <text font-family="monospace" font-size="12" fill="rgba(255,255,255,0.7)">
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="12" fill="rgba(255,255,255,0.7)">
         <tspan x="0" y="28">
           <animate attributeName="opacity" values="0;0;1" dur="3s" repeatCount="indefinite"/>
           ABHINAV MS
@@ -222,7 +222,7 @@
       </text>
 
       <!-- Line 3: Command -->
-      <text font-family="monospace" font-size="13" fill="#00ccff">
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
         <tspan x="0" y="60" font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
         <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
         <tspan fill="#00ff88">cat /etc/passwd | grep -i abhinav</tspan>
@@ -232,13 +232,13 @@
       <g opacity="0">
         <animate attributeName="opacity" values="0;0;0;1" dur="5s" repeatCount="indefinite"/>
         <rect x="0" y="80" width="490" height="18" rx="4" fill="rgba(0,255,136,0.08)"/>
-        <text font-family="monospace" font-size="11" fill="#00ff88">
+        <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">
           <tspan x="10" y="93">uid=1337(abhinavms) gid=42(security) groups=42(security),77(reverse)</tspan>
         </text>
       </g>
 
       <!-- Line 5: Command -->
-      <text font-family="monospace" font-size="13" fill="#00ccff">
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
         <tspan x="0" y="120" font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
         <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
         <tspan fill="#00ff88">./skills.sh --list</tspan>
@@ -251,44 +251,44 @@
         <!-- Skill rows -->
         <g transform="translate(0, 145)">
           <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,255,136,0.1)" stroke="rgba(0,255,136,0.2)" stroke-width="0.5"/>
-          <text x="55" y="20" text-anchor="middle" font-family="monospace" font-size="11" fill="#00ff88">🔍 Ghidra</text>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">🔍 Ghidra</text>
           <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0s" fill="freeze"/>
         </g>
         <g transform="translate(125, 145)">
           <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,204,255,0.1)" stroke="rgba(0,204,255,0.2)" stroke-width="0.5"/>
-          <text x="55" y="20" text-anchor="middle" font-family="monospace" font-size="11" fill="#00ccff">☕ JADX</text>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ccff">☕ JADX</text>
         </g>
         <g transform="translate(250, 145)">
           <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,255,136,0.1)" stroke="rgba(0,255,136,0.2)" stroke-width="0.5"/>
-          <text x="55" y="20" text-anchor="middle" font-family="monospace" font-size="11" fill="#00ff88">🐧 Linux</text>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">🐧 Linux</text>
         </g>
         <g transform="translate(375, 145)">
           <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,204,255,0.1)" stroke="rgba(0,204,255,0.2)" stroke-width="0.5"/>
-          <text x="55" y="20" text-anchor="middle" font-family="monospace" font-size="11" fill="#00ccff">🌐 Nmap</text>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ccff">🌐 Nmap</text>
         </g>
 
         <!-- Row 2 -->
         <g transform="translate(0, 185)">
           <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,255,136,0.1)" stroke="rgba(0,255,136,0.2)" stroke-width="0.5"/>
-          <text x="55" y="20" text-anchor="middle" font-family="monospace" font-size="11" fill="#00ff88">💉 SQLMap</text>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">💉 SQLMap</text>
         </g>
         <g transform="translate(125, 185)">
           <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,204,255,0.1)" stroke="rgba(0,204,255,0.2)" stroke-width="0.5"/>
-          <text x="55" y="20" text-anchor="middle" font-family="monospace" font-size="11" fill="#00ccff">🔑 Hydra</text>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ccff">🔑 Hydra</text>
         </g>
         <g transform="translate(250, 185)">
           <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,255,136,0.1)" stroke="rgba(0,255,136,0.2)" stroke-width="0.5"/>
-          <text x="55" y="20" text-anchor="middle" font-family="monospace" font-size="11" fill="#00ff88">🔎 FFUF</text>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">🔎 FFUF</text>
         </g>
         <g transform="translate(375, 185)">
           <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(255,0,170,0.1)" stroke="rgba(255,0,170,0.2)" stroke-width="0.5"/>
-          <text x="55" y="20" text-anchor="middle" font-family="monospace" font-size="11" fill="#ff00aa">🛡️ RE</text>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#ff00aa">🛡️ RE</text>
         </g>
       </g>
 
       <!-- Animated titles cycling -->
       <g transform="translate(0, 250)">
-        <text font-family="monospace" font-size="13" fill="#00ccff">
+        <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
           <tspan font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
           <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
           <tspan fill="#00ff88">./title.sh --display</tspan>
@@ -296,23 +296,23 @@
 
         <g transform="translate(0, 50)">
           <rect x="0" y="-12" width="490" height="36" rx="6" fill="rgba(255,0,170,0.06)" stroke="rgba(255,0,170,0.12)" stroke-width="0.5"/>
-          <text font-family="monospace" font-size="16" fill="#ff00aa" font-weight="bold" text-anchor="middle" x="245" y="12">
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#ff00aa" font-weight="bold" text-anchor="middle" x="245" y="12">
             <animate attributeName="opacity" values="0;0;0;0;0;1;0;0;0;0;0;0;0" dur="12s" repeatCount="indefinite"/>
             🔬 Cybersecurity Researcher
           </text>
-          <text font-family="monospace" font-size="16" fill="#00ccff" font-weight="bold" text-anchor="middle" x="245" y="12">
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#00ccff" font-weight="bold" text-anchor="middle" x="245" y="12">
             <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;0;0;0;0;0" dur="12s" repeatCount="indefinite"/>
             🔄 Reverse Engineer
           </text>
-          <text font-family="monospace" font-size="16" fill="#00ff88" font-weight="bold" text-anchor="middle" x="245" y="12">
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#00ff88" font-weight="bold" text-anchor="middle" x="245" y="12">
             <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1;0;0;0" dur="12s" repeatCount="indefinite"/>
             🦠 Malware Analyst
           </text>
-          <text font-family="monospace" font-size="16" fill="#ff00aa" font-weight="bold" text-anchor="middle" x="245" y="12">
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#ff00aa" font-weight="bold" text-anchor="middle" x="245" y="12">
             <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;1;0" dur="12s" repeatCount="indefinite"/>
             🏴 CTF Challenge Developer
           </text>
-          <text font-family="monospace" font-size="16" fill="#00ccff" font-weight="bold" text-anchor="middle" x="245" y="12">
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#00ccff" font-weight="bold" text-anchor="middle" x="245" y="12">
             <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;1" dur="12s" repeatCount="indefinite"/>
             🧪 Security Research &amp; Development
           </text>
@@ -321,7 +321,7 @@
 
       <!-- Info section -->
       <g transform="translate(0, 340)">
-        <text font-family="monospace" font-size="13" fill="#00ccff">
+        <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
           <tspan font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
           <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
           <tspan fill="#00ff88">./contact.sh</tspan>
@@ -329,7 +329,7 @@
 
         <g transform="translate(0, 30)" opacity="0">
           <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;1" dur="12s" repeatCount="indefinite"/>
-          <text font-family="monospace" font-size="11" fill="rgba(255,255,255,0.5)">
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="rgba(255,255,255,0.5)">
             <tspan x="0" y="0">📍 Kozhikode, Kerala, India</tspan>
             <tspan x="0" y="20">🎓 Advanced Diploma in Information Security</tspan>
             <tspan x="0" y="40">🏫 Offenso Hackers Academy</tspan>
@@ -340,11 +340,11 @@
 
       <!-- Bottom cursor line -->
       <g transform="translate(0, 440)">
-        <text font-family="monospace" font-size="13" fill="#00ccff">
+        <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
           <tspan font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
           <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
         </text>
-        <text x="160" y="0" font-family="monospace" font-size="13" fill="#00ff88">
+        <text x="160" y="0" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ff88">
           <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
           █
         </text>
