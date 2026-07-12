@@ -168,7 +168,7 @@
 
       <!-- Skills grid -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;0;0;1" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;1;0;1;0;1" keyTimes="0;0.83;0.85;0.87;0.89;1" dur="6s" repeatCount="indefinite"/>
         
         <!-- Row 1 -->
         <g transform="translate(0, 145)">
