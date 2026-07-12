@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="50%" stop-color="#00ccff"/>
+      <stop offset="100%" stop-color="#ff00aa"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+    <linearGradient id="glassBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.15)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowStrong">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glassBlur">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <clipPath id="terminalClip">
+      <rect x="590" y="30" width="555" height="550" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1180" height="610" fill="url(#bgDark)"/>
+
+  <!-- Grid Pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0,255,136,0.04)" stroke-width="0.5"/>
+  </pattern>
+  <rect width="1180" height="610" fill="url(#grid)"/>
+
+  <!-- Animated grid lines -->
+  <g opacity="0.3">
+    <line x1="0" y1="0" x2="0" y2="610" stroke="rgba(0,255,136,0.08)" stroke-width="1">
+      <animate attributeName="x1" values="0;1180;0" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1180;0" dur="20s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="0" x2="1180" y2="0" stroke="rgba(0,255,136,0.08)" stroke-width="1">
+      <animate attributeName="y1" values="0;610;0" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="0;610;0" dur="20s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Ambient glow particles -->
+  <circle cx="200" cy="150" r="80" fill="rgba(0,255,136,0.03)" filter="url(#glowStrong)">
+    <animate attributeName="r" values="80;120;80" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="450" r="100" fill="rgba(0,204,255,0.03)" filter="url(#glowStrong)">
+    <animate attributeName="r" values="100;140;100" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===== LEFT: ASCII Portrait ===== -->
+  <g transform="translate(30, 40)">
+    <!-- Terminal frame for portrait -->
+    <rect x="0" y="0" width="530" height="555" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    
+    <!-- Terminal title bar -->
+    <rect x="0" y="0" width="530" height="36" rx="12" fill="rgba(255,255,255,0.05)"/>
+    <rect x="0" y="18" width="530" height="18" fill="rgba(255,255,255,0.05)"/>
+    <circle cx="20" cy="18" r="5" fill="#ff5f57"/>
+    <circle cx="38" cy="18" r="5" fill="#ffbd2e"/>
+    <circle cx="56" cy="18" r="5" fill="#28c840"/>
+    <text x="265" y="23" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11">root@abhinavms:~/profile</text>
+
+    <!-- ASCII Portrait from user file -->
+    <g transform="translate(15, 40)">
+      <rect x="15" y="0" width="500" height="495" rx="10" fill="none" stroke="rgba(0,255,136,0.08)" stroke-width="1"/>
+
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="6.5" fill="#00ff88" opacity="0.95" xml:space="preserve">
+{{ASCII_ART}}
+      </text>
+
+      <!-- Glitch overlay -->
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="6.5" fill="#ff00aa" opacity="0.2" xml:space="preserve">
+        <tspan x="68" y="37">                                            *##*  ###****#***+                                      </tspan>
+        <animate attributeName="opacity" values="0;0;0.2;0;0;0;0.15;0" dur="4s" repeatCount="indefinite"/>
+      </text>
+
+      <!-- Scanning line -->
+      <rect x="25" y="5" width="480" height="1.5" fill="rgba(0,255,136,0.1)">
+        <animate attributeName="y" values="5;443;5" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Bottom info bar with typing animation -->
+    <g transform="translate(20, 495)">
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="rgba(255,255,255,0.6)">
+        <tspan fill="#00ccff">$</tspan> <tspan fill="#00ff88">./identify.sh</tspan>
+      </text>
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="12" fill="rgba(255,255,255,0.5)">
+        <tspan x="0" y="22">> System : Cybersecurity Researcher
+        </tspan>
+        <tspan x="0" y="38">> User   : ABHINAV MS
+        </tspan>
+        <tspan x="0" y="54">> Role   : Security Researcher
+        </tspan>
+      </text>
+
+      <!-- Blinking cursor -->
+      <text x="160" y="0" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ff88">
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+        █
+      </text>
+    </g>
+  </g>
+
+  <!-- ===== RIGHT: Glass Terminal ===== -->
+  <g transform="translate(590, 30)">
+    <!-- Glass card -->
+    <rect width="555" height="550" rx="16" fill="url(#glassGrad)" stroke="url(#glassBorder)" stroke-width="1.5"/>
+    
+    <!-- Glass reflection -->
+    <rect x="20" y="20" width="200" height="200" rx="12" fill="rgba(255,255,255,0.02)">
+      <animate attributeName="opacity" values="0.02;0.06;0.02" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Terminal header -->
+    <rect x="0" y="0" width="555" height="40" rx="16" fill="rgba(255,255,255,0.06)"/>
+    <rect x="0" y="20" width="555" height="20" fill="rgba(255,255,255,0.06)"/>
+    <circle cx="20" cy="20" r="5" fill="#ff5f57"/>
+    <circle cx="38" cy="20" r="5" fill="#ffbd2e"/>
+    <circle cx="56" cy="20" r="5" fill="#28c840"/>
+    <text x="295" y="25" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="10">/bin/zsh — terminal</text>
+
+    <!-- Terminal content -->
+    <g transform="translate(25, 60)">
+      <!-- Line 1: Username -->
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
+        <tspan font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
+        <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
+        <tspan fill="#00ff88">whoami</tspan>
+      </text>
+
+      <!-- Line 2: Output (typed) -->
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="12" fill="rgba(255,255,255,0.7)">
+        <tspan x="0" y="28">
+          <animate attributeName="opacity" values="0;0;1" dur="3s" repeatCount="indefinite"/>
+          ABHINAV MS
+        </tspan>
+      </text>
+
+      <!-- Line 3: Command -->
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
+        <tspan x="0" y="60" font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
+        <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
+        <tspan fill="#00ff88">cat /etc/passwd | grep -i abhinav</tspan>
+      </text>
+
+      <!-- Line 4: Output block -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;0;1" dur="5s" repeatCount="indefinite"/>
+        <rect x="0" y="80" width="490" height="18" rx="4" fill="rgba(0,255,136,0.08)"/>
+        <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">
+          <tspan x="10" y="93">uid=1337(abhinavms) gid=42(security) groups=42(security),77(reverse)</tspan>
+        </text>
+      </g>
+
+      <!-- Line 5: Command -->
+      <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
+        <tspan x="0" y="120" font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
+        <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
+        <tspan fill="#00ff88">./skills.sh --list</tspan>
+      </text>
+
+      <!-- Skills grid -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;1" dur="7s" repeatCount="indefinite"/>
+        
+        <!-- Skill rows -->
+        <g transform="translate(0, 145)">
+          <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,255,136,0.1)" stroke="rgba(0,255,136,0.2)" stroke-width="0.5"/>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">🔍 Ghidra</text>
+          <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0s" fill="freeze"/>
+        </g>
+        <g transform="translate(125, 145)">
+          <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,204,255,0.1)" stroke="rgba(0,204,255,0.2)" stroke-width="0.5"/>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ccff">☕ JADX</text>
+        </g>
+        <g transform="translate(250, 145)">
+          <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,255,136,0.1)" stroke="rgba(0,255,136,0.2)" stroke-width="0.5"/>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">🐧 Linux</text>
+        </g>
+        <g transform="translate(375, 145)">
+          <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,204,255,0.1)" stroke="rgba(0,204,255,0.2)" stroke-width="0.5"/>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ccff">🌐 Nmap</text>
+        </g>
+
+        <!-- Row 2 -->
+        <g transform="translate(0, 185)">
+          <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,255,136,0.1)" stroke="rgba(0,255,136,0.2)" stroke-width="0.5"/>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">💉 SQLMap</text>
+        </g>
+        <g transform="translate(125, 185)">
+          <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,204,255,0.1)" stroke="rgba(0,204,255,0.2)" stroke-width="0.5"/>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ccff">🔑 Hydra</text>
+        </g>
+        <g transform="translate(250, 185)">
+          <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(0,255,136,0.1)" stroke="rgba(0,255,136,0.2)" stroke-width="0.5"/>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#00ff88">🔎 FFUF</text>
+        </g>
+        <g transform="translate(375, 185)">
+          <rect x="0" y="0" width="110" height="30" rx="6" fill="rgba(255,0,170,0.1)" stroke="rgba(255,0,170,0.2)" stroke-width="0.5"/>
+          <text x="55" y="20" text-anchor="middle" font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="#ff00aa">🛡️ RE</text>
+        </g>
+      </g>
+
+      <!-- Animated titles cycling -->
+      <g transform="translate(0, 250)">
+        <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
+          <tspan font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
+          <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
+          <tspan fill="#00ff88">./title.sh --display</tspan>
+        </text>
+
+        <g transform="translate(0, 50)">
+          <rect x="0" y="-12" width="490" height="36" rx="6" fill="rgba(255,0,170,0.06)" stroke="rgba(255,0,170,0.12)" stroke-width="0.5"/>
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#ff00aa" font-weight="bold" text-anchor="middle" x="245" y="12">
+            <animate attributeName="opacity" values="0;0;0;0;0;1;0;0;0;0;0;0;0" dur="12s" repeatCount="indefinite"/>
+            🔬 Cybersecurity Researcher
+          </text>
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#00ccff" font-weight="bold" text-anchor="middle" x="245" y="12">
+            <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;0;0;0;0;0" dur="12s" repeatCount="indefinite"/>
+            🔄 Reverse Engineer
+          </text>
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#00ff88" font-weight="bold" text-anchor="middle" x="245" y="12">
+            <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1;0;0;0" dur="12s" repeatCount="indefinite"/>
+            🦠 Malware Analyst
+          </text>
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#ff00aa" font-weight="bold" text-anchor="middle" x="245" y="12">
+            <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;1;0" dur="12s" repeatCount="indefinite"/>
+            🏴 CTF Challenge Developer
+          </text>
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="16" fill="#00ccff" font-weight="bold" text-anchor="middle" x="245" y="12">
+            <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;1" dur="12s" repeatCount="indefinite"/>
+            🧪 Security Research &amp; Development
+          </text>
+        </g>
+      </g>
+
+      <!-- Info section -->
+      <g transform="translate(0, 340)">
+        <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="#00ccff">
+          <tspan font-weight="bold">abhinavms</tspan><tspan fill="rgba(255,255,255,0.3)">@</tspan><tspan fill="#ff00aa">security-lab</tspan>
+          <tspan fill="rgba(255,255,255,0.3)"> ~ % </tspan>
+          <tspan fill="#00ff88">./contact.sh</tspan>
+        </text>
+
+        <g transform="translate(0, 30)">
+          <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="rgba(255,255,255,0.5)">
+            <tspan x="0" y="0">📍 Kozhikode, Kerala, India</tspan>
+            <tspan x="0" y="20">🎓 Advanced Diploma in Information Security</tspan>
+            <tspan x="0" y="40">🏫 Offenso Hackers Academy</tspan>
+            <tspan x="0" y="60">📧 abhinavms1386@gmail.com</tspan>
+          </text>
+        </g>
+      </g>
+
+    </g>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="605" width="1180" height="5" fill="url(#accentGrad)" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

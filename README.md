@@ -2,7 +2,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/light.svg">
-  <img src="assets/dark.svg" alt="ABHINAV MS - Security Researcher Banner">
+  <img src="assets/dark.svg" alt="ABHINAV MS - Cybersecurity Researcher Banner">
 </picture>
 </p>
 
@@ -18,19 +18,20 @@ focus:
   - Reverse Engineering
   - Malware Analysis
   - Web Security
+  - CTF Development
   - Security Research & Development
 ```
 
 ### 🛠️ Arsenal
 
 ```
-Linux    ████████████████████ 100%
-Nmap     ████████████████████ 100%
-SQLMap   ████████████████████ 100%
-Hydra    ████████████████████ 100%
-FFUF     ████████████████████ 100%
-Ghidra   ████████████████████ 100%
-JADX     ████████████████████ 100%
+Linux     ████████████████████ 100%
+Nmap      ████████████████████ 100%
+SQLMap    ████████████████████ 100%
+Hydra     ████████████████████ 100%
+FFUF      ████████████████████ 100%
+Ghidra    ████████████████████ 100%
+JADX      ████████████████████ 100%
 ```
 
 ### 📫 Connect
