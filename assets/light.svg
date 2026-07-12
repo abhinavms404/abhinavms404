@@ -308,8 +308,7 @@
           <tspan fill="#059669">./contact.sh</tspan>
         </text>
 
-        <g transform="translate(0, 30)" opacity="0">
-          <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;1" dur="12s" repeatCount="indefinite"/>
+        <g transform="translate(0, 30)">
           <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="11" fill="rgba(0,0,0,0.45)">
             <tspan x="0" y="0">📍 Kozhikode, Kerala, India</tspan>
             <tspan x="0" y="20">🎓 Advanced Diploma in Information Security</tspan>
