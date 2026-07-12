@@ -165,15 +165,15 @@
       </text>
       <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="12" fill="rgba(255,255,255,0.5)">
         <tspan x="0" y="22" opacity="0">
-          <animate attributeName="opacity" values="0;0;1" dur="6s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.33;0.34;1" dur="18s" repeatCount="indefinite"/>
           > System : Security Research Lab
         </tspan>
         <tspan x="0" y="38" opacity="0">
-          <animate attributeName="opacity" values="0;0;0;1" dur="8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1" dur="18s" repeatCount="indefinite"/>
           > User   : ABHINAV MS
         </tspan>
         <tspan x="0" y="54" opacity="0">
-          <animate attributeName="opacity" values="0;0;0;0;1" dur="10s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.66;0.67;1" dur="18s" repeatCount="indefinite"/>
           > Role   : Security Researcher
         </tspan>
       </text>
