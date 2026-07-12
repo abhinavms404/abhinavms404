@@ -168,13 +168,9 @@
           <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.33;0.34;1" dur="18s" repeatCount="indefinite"/>
           > System : Security Research Lab
         </tspan>
-        <tspan x="0" y="38" opacity="0">
-          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1" dur="18s" repeatCount="indefinite"/>
-          > User   : ABHINAV MS
+        <tspan x="0" y="38">> User   : ABHINAV MS
         </tspan>
-        <tspan x="0" y="54" opacity="0">
-          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.66;0.67;1" dur="18s" repeatCount="indefinite"/>
-          > Role   : Security Researcher
+        <tspan x="0" y="54">> Role   : Security Researcher
         </tspan>
       </text>
 
