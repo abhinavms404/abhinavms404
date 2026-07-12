@@ -148,9 +148,7 @@
         <tspan fill="#0284c7">$</tspan> <tspan fill="#059669">./identify.sh</tspan>
       </text>
       <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="12" fill="rgba(0,0,0,0.4)">
-        <tspan x="0" y="22" opacity="0">
-          <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.33;0.34;1" dur="18s" repeatCount="indefinite"/>
-          > System : Cybersecurity Researcher
+        <tspan x="0" y="22">> System : Cybersecurity Researcher
         </tspan>
         <tspan x="0" y="38">> User   : ABHINAV MS
         </tspan>
