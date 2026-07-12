@@ -143,7 +143,7 @@
     </g>
 
     <!-- Bottom info bar -->
-    <g transform="translate(20, 485)">
+    <g transform="translate(20, 495)">
       <text font-family="'Courier New','Consolas','Liberation Mono','DejaVu Sans Mono','Ubuntu Mono',monospace" font-size="13" fill="rgba(0,0,0,0.5)">
         <tspan fill="#0284c7">$</tspan> <tspan fill="#059669">./identify.sh</tspan>
       </text>
